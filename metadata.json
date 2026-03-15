@@ -1,0 +1,5 @@
+{
+  "name": "Universal Web Navigator",
+  "description": "A visual AI agent that navigates websites using Gemini's multimodal capabilities to see and interact with UIs like a human.",
+  "requestFramePermissions": []
+}
