@@ -293,30 +293,4 @@ Universal Web Navigator could power:
 
 MIT License
 
-flowchart TD
-
-A[User Interface<br>React + Vite Frontend] --> B[API Layer<br>Node.js + Express]
-
-B --> C[Mission Controller<br>Agent Orchestrator]
-
-C --> D[Browser Automation Engine<br>Puppeteer / Playwright]
-
-D --> E[Website Screenshot Capture]
-
-E --> F[Gemini 3 Flash<br>Multimodal Reasoning]
-
-F --> G[Action Decision Engine]
-
-G --> D
-
-F --> H[Google Search Grounding]
-
-subgraph Google Cloud
-I[Google Cloud Run<br>Serverless Hosting]
-J[Vertex AI<br>Gemini API]
-K[Cloud Container Infrastructure]
-end
-
-B --> I
-F --> J
-I --> K
+ 
